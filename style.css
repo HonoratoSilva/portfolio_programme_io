@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Pacifico&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #222831;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
+}
+
+.container_foto {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foto_img {
+    max-width: 100px;
+    border-radius: 100%;
+}
+
+.nome {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2rem;
+    font-family: "Pacifico", cursive;
+    color: #FCDA05;
+}
+
+.descricao {
+  text-transform: uppercase;
+  color: #FCDA05;
+  padding-bottom: 20px;
+}
+
+
+
+.container_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    gap: 20px;
+}
+
+.links {
+    background-color: #393E46;
+    height: 20px;
+    min-width: 60%;
+    padding: 20px;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    transition-duration: 0.7s;
+    font-size: 1rem;
+    font-family: 'Fira Code', monospace;
+
+}
+
+.links:hover {
+    background-color: #FCDA05;
+    color:#222831;
+    font-size: 1.2rem;
+    transition-duration: 0.7s;
+}
+
+.links:last-child{
+    margin-bottom: 2rem;
+}
+
+.links_social {
+    height: 20px;
+    min-width: 60%;
+    padding: 20px;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FCDA05;
+    transition-duration: 0.7s;
+    font-size: 2rem;
+    font-family: 'Fira Code', monospace;
+
+}
+
+.links_social:hover {
+    font-size: 2.2rem;
+    transition-duration: 0.7s;
+}
